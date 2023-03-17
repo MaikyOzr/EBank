@@ -1,1 +1,1 @@
-# EEBank
+# EBank
