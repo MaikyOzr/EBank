@@ -1,19 +1,19 @@
 /* підключення шрифтів */
 @font-face {
     font-family: 'Metropolis';
-    src: url(/Fonts/Metropolis-Medium.woff) format('woff');
+    src: url(/front-end/_denys/Fonts/Metropolis-Medium.woff) format('woff');
     font-weight: 500;
 }
   
 @font-face {
     font-family: 'Metropolis';
-    src: url(/Fonts/Metropolis-SemiBold.woff) format('woff');
+    src: url(/front-end/_denys/Fonts/Metropolis-SemiBold.woff) format('woff');
     font-weight: 600;
 }
   
 @font-face {
     font-family: 'Metropolis';
-    src: url(/Fonts/Metropolis-Bold.woff) format('woff');
+    src: url(/front-end/_denys/Fonts/Metropolis-Bold.woff) format('woff');
     font-weight: 700;
 }
 /* кінець підключення шрифтів */
@@ -167,3 +167,20 @@ a {
     color: #999999;
 }
 /* кінець Creating Extraordinary Customer Experience */
+
+/* початок BUSINESS PARTNERS */
+
+.busin_part{
+    margin-inline: 7.29166%; 
+}
+.main_topic{
+    margin-top: 17.33333%;
+    text-align: center;
+    font-family: 'Metropolis', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    letter-spacing: 2.1px;
+    color: #343434;
+}
+/* кінець BUSINESS PARTNERS */
