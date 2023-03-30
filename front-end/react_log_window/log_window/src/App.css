@@ -1,0 +1,100 @@
+*::placeholder{
+position: absolute;
+top:0;
+left:0;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.moje_div{
+    border:1px solid black;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    height:100vh;
+    
+    
+}
+.sub_btn{
+    background-color: #252020;
+    color:white;
+    width:200px;
+    height:35px;
+    border-radius:40px;
+    cursor: pointer;
+}
+.use_inp,.pass_inp{
+    
+    width:200px;
+    padding-top:25px;
+    
+    border-bottom:1px solid black;
+    font-size: 18px;
+    
+}
+.is-invalid{
+    
+    
+    border-bottom:1px solid red;
+    
+    
+    
+}
+.but_n_div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+    gap:25px;
+    font-size: 18px;
+}
+
+
+.pass_block{
+    margin-top:10%;
+}
+.content_conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:12px;   
+    background-color: #fff;
+    z-index: 3;
+    border-radius: 15px;
+    width:360px;
+    height:70vh;
+}
+.dubl_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    padding: 9px 18px;
+    border-radius: 12px;
+    width:140px;
+    height:32px;
+    text-align: center;
+    cursor: pointer;    
+}
+
+  .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width:50%;
+    border-right:1px solid black;
+    height:inherit;
+  }
+  .right{
+    width:50%;
+
+  }
+
