@@ -72,29 +72,34 @@ h1{
     width:360px;
     height:70vh;
 }
-.dubl_btn{
+.left,.right{
     display: flex;
-    justify-content: center;
     align-items: center;
-    border:1px solid black;
-    padding: 9px 18px;
-    border-radius: 12px;
-    width:140px;
-    height:32px;
-    text-align: center;
-    cursor: pointer;    
-}
-
-  .left{
-    display: flex;
     justify-content: center;
-    align-items: center;    
-    width:50%;
-    border-right:1px solid black;
     height:inherit;
+    width:50%;
+    
   }
   .right{
-    width:50%;
-
+    border-left:1px solid black;
   }
+.dubl_btn{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border:1px solid black;
+    /* padding: 9px 18px; */
+    border-radius: 12px;
+    width:150px;
+    height:30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #63606034;    
+}
+
+  
+  
+    
+    
+  
 

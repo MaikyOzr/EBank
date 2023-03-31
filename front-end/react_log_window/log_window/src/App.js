@@ -6,8 +6,11 @@ function App() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [isValid, setIsValid] = useState(true);
-
- 
+  
+  const handleLogin=()=>{
+    const uservar=username;
+    const userpas=password;
+  }
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -46,12 +49,12 @@ function App() {
         
         </Form.Group>
         <Form.Group className="but_n_div">
-        <Button variant="primary" type="submit" className="sub_btn">
+        <Button variant="primary" type="submit" className="sub_btn" onClick={handleLogin}>
           Submit
         </Button>
         <div className="dubl_btn">
-        <a className="left">log in</a>
-        <a className="right">back</a>
+        <div className="left"><a >log in</a></div>
+        <div className="right"><a >back</a></div>
         </div>
 
         </Form.Group>
