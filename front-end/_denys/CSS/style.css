@@ -200,8 +200,9 @@ a {
     font-size: 14px;
     line-height: 20px;
     background-color: #F467B2;
-}
-.image-slider .swiper-pagination-bullet:active{
+} 
+.swiper-pagination-bullet-active{
+    transition: all 0.5s ease;
     transform: scale(1.3);
 }
 .img_slider{
