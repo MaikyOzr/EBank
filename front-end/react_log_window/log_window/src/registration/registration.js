@@ -16,8 +16,21 @@ export function Reg() {
     const isEmail=email.trim();
     const isPassword=password.trim();
     const isConfirmed_password=confirmed_password.trim();
-  }
   
+  const sendData = () => {
+    const data = {username:isUsername, email:isEmail, password:isPassword, confirmed_password:isConfirmed_password};
+    const url = '/login';
+    const options = {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(data)
+    };
+    fetch(url, options)
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.error(error));
+  }
+  }
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!username||!password||!email||!confirmed_password) {
