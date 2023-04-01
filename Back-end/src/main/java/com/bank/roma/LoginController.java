@@ -6,13 +6,14 @@ package com.bank.roma;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
+
 
 /**
  *
  * @author Maiky
  */
-@Controller
+@RestController
 public class LoginController {
    List<User> users = new ArrayList();//спосок користувачів    
    
