@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RomaApplication {
+public class SpringBApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RomaApplication.class, args);
+		SpringApplication.run(SpringBApplication.class, args);
 	}
 
 }
