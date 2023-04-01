@@ -70,7 +70,7 @@ h1{
     z-index: 3;
     border-radius: 15px;
     width:360px;
-    height:70vh;
+    height:auto;
 }
 .left,.right{
     display: flex;
@@ -96,7 +96,10 @@ h1{
     cursor: pointer;
     background-color: #63606034;    
 }
-
+.style_non{
+    text-decoration: none;
+    color:black;
+}
   
   
     

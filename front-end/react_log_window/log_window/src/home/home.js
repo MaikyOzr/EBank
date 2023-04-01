@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
-import './App.css'
+import axios from 'axios';
+import './home.css'
+import { NavLink } from 'react-router-dom';
 
-function App() {
+export function Log() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [isValid, setIsValid] = useState(true);
@@ -11,7 +13,7 @@ function App() {
     const uservar=username;
     const userpas=password;
   }
-
+  
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!username||!password) {
@@ -20,7 +22,9 @@ function App() {
     }else{
 
     }
-  } 
+    
+  }
+   
   const handleUserChange = (event) => {
     setUsername(event.target.value);
     setIsValid(true);
@@ -53,7 +57,7 @@ function App() {
           Submit
         </Button>
         <div className="dubl_btn">
-        <div className="left"><a >log in</a></div>
+        <div className="left"><NavLink to="/registration" className="style_non">Log in</NavLink></div>
         <div className="right"><a >back</a></div>
         </div>
 
@@ -61,6 +65,4 @@ function App() {
       </Form>
     </Container>
   );
-}
-
-export default App;
+};
