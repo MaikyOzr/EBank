@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
 import axios from 'axios';
-import './home.css'
+// import './home.css'
 import { NavLink } from 'react-router-dom';
 
 export function Log() {
@@ -58,7 +58,7 @@ export function Log() {
         </Button>
         <div className="dubl_btn">
         <div className="left"><NavLink to="/registration" className="style_non">Log in</NavLink></div>
-        <div className="right"><a >back</a></div>
+        <div className="right"><a >Back</a></div>
         </div>
 
         </Form.Group>
