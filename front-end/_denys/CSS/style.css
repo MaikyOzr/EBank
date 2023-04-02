@@ -42,7 +42,9 @@ body, html {
     font-size: 14px;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%}
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Metropolis';
+}
 
 
 button, input, textarea {
@@ -218,7 +220,7 @@ a {
 /* кінець BUSINESS PARTNERS */
 /*Початок футера*/
 .footer_block{
-    margin-inline: 9.375%;
+    margin-inline: 14.0625%;
     padding-top: 2.27272%;
     padding-bottom: 2.95454%;
     display: flex;

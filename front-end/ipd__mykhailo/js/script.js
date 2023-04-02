@@ -31,3 +31,7 @@ function scroll(e){
     
 
 }
+for(let i=0;i<navSubMenuButons.length;i++){
+    navSubMenuButons[i].addEventListener('click',scroll);
+
+}
