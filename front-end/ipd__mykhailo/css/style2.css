@@ -61,6 +61,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     font-weight: inherit;
 }
+
+/*-------------------------System-------------*/
 img {
     max-width: 100%}
 div {
@@ -119,7 +121,7 @@ a {
     padding: 0 20px;
 }
 
-
+/*-------------------------Reuse-class-------------*/
 ._title {
     font-weight: 700;
     font-size: 32px;
@@ -170,6 +172,26 @@ a {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------About-------------*/
 .about {
 }
 .about__container {
@@ -231,6 +253,10 @@ a {
 
 
 
+
+
+
+/*-------------------------Service-------------*/
 
 .service__item {
     min-height:457px;
@@ -362,7 +388,7 @@ a {
 
 }
 
-
+/*-------------------------News-------------*/
 
 .news {
     background: #FEF9FC;
@@ -413,7 +439,7 @@ a {
 
 
 
-
+/*-------------------------MD-Request-------------*/
 
 @media(max-width:900px){
     .abut__row{
