@@ -70,10 +70,34 @@ div {
     position: relative;
     flex: 1 1 auto;
 }
+.content__navigation {
+    margin-right:4vw;
+    position: fixed;
+    right: 0;
+    top: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+}
+.nav__bullet {
+    cursor: pointer;
+    
+    border-radius:10px;
+    transition-property:transorm,backgorund;
+    transition:.6s ease;
+    height: 16px;
+    width: 16px;
+    background: #CCCCCC;
+}
+.nav__bullet.nav-bt_active{
+    background: #ED017F;
+    transform: scale(1.2);
+}
 
 body {
     min-height: 100%;
-    color: #232233;
+    color: #343434;
     font-family: 'Josefin Sans';
    
     
@@ -102,7 +126,7 @@ a {
     line-height: 38px;
     /* identical to box height, or 119% */
 
-
+    
     /* Black/80% */
 
     color: #343434;
@@ -113,11 +137,36 @@ a {
     font-size: 16px;
     line-height: 29px;
     /* or 181% */
-
+    text-align: center;
 
     /* Black/60% */
 
     color: #676767;
+}
+._button {
+    background: #ED017F;
+    border-radius: 4px;
+    padding:19px 24px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 167% */
+    border: #ED017F 2px solid;
+  
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    transition-property:color,background;
+    transition:0.4s ease;
+
+}
+._button:hover{
+    background: transparent;
+    color: #ED017F;
+
+
 }
 
 
@@ -147,6 +196,7 @@ a {
 
 .about__subtitle {
     padding-bottom:44px;
+    text-align: left;
 }
 
 .about__button__block {
@@ -314,6 +364,57 @@ a {
 
 
 
+.news {
+    background: #FEF9FC;
+    padding:100px 0px;
+}
+.news__container {
+}
+._container {
+}
+.title__block {
+    padding-bottom:65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news__title {
+}
+._title {
+}
+.news__subtitle {
+    max-width: 548px;
+}
+
+.news__input__block {
+    display: flex;
+    justify-content: center;
+    gap:11px;
+}
+.news__input {
+    padding:12px 17px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    width:343px;
+
+    /* Black/20% */
+    color: #343434;
+    
+}
+.news__input::placeholder{
+    color: #CCCCCC;
+}
+.news__button {
+}
+
+
+
+
+
 @media(max-width:900px){
     .abut__row{
         flex-wrap: wrap;
@@ -325,6 +426,15 @@ a {
         flex-wrap: wrap;
     }
     .service__item{
+        width:100%;
+    }
+}
+
+@media(max-width:420px){
+    .news__input__block{
+        flex-wrap: wrap;
+    }
+    .news__button{
         width:100%;
     }
 }
