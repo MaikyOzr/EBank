@@ -98,7 +98,7 @@ export function Reg() {
         </Button>
         <div className="dubl_btn">
         <div className="left"><NavLink to="/" className="style_non">Sing in</NavLink></div>
-        <div className="right"><a >backkk</a></div>
+        <div className="right"><a >Back</a></div>
         </div>
 
         </Form.Group>

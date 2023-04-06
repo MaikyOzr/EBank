@@ -81,13 +81,13 @@ h1{
     
   }
   .right{
-    border-left:1px solid black;
+    /* border-left:1px solid black; */
   }
 .dubl_btn{
     display: flex;
     justify-content: space-around;
     align-items:center;
-    border:1px solid black;
+    /* border:1px solid black; */
     /* padding: 9px 18px; */
     border-radius: 12px;
     width:150px;
