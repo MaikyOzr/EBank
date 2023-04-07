@@ -1,10 +1,10 @@
-package com.roma.roma;
+package com.bank.bankapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RomaApplicationTests {
+class BankappApplicationTests {
 
 	@Test
 	void contextLoads() {
