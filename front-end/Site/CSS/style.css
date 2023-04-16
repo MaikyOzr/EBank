@@ -95,6 +95,137 @@ a {
 }
 /* кінець онулюючого коду */
 
+
+/* хедер */
+#head-plate{
+    margin-block: 10px;
+    margin-inline: 14.0625%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+.head-plate__navigation{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.reg__button{
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background-color: #ED017F;
+    border: #ED017F solid 3px;
+    transition: all 0.3s ease;
+}
+.reg__button:hover{
+    color: #ED017F;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+.navigation__text{
+    font-family: 'Metropolis';
+    font-style: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.first-section__conteiner__background{
+    background-color: #FFEAF5;
+    position: absolute;
+    width: 51.65%;
+    height: 100vh;
+    z-index: -2;
+    right: 0;
+    overflow: hidden;
+}
+/* кінець хедеру */
+
+
+/* головний блок */
+.first-section{
+    width: 100%;
+    height: 100vh;
+}
+.first-section__line{
+    margin-top: 40px;
+    width: 8.4375%;
+    height: 3px;
+    background-color:#F467B2;
+}
+.first-section__conteiner{
+    margin-inline: 14.0625%;
+    font-family: 'Metropolis';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+.first-section__title{
+    font-weight: bold;
+    font-size: 60px;
+}
+.first-section__title-blok{
+    margin-right: 10%;
+    padding-top: 10%;
+    position: relative;
+}
+.first-section__text{
+    margin-top: 40px;
+    margin-left: 8.4375%;
+    font-size: 22px;
+}
+.first-section__button{
+    font-size: 16px;
+    font-style: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 225px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #ED017F;
+    margin-top: 17.07317%;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 2.5px 0 #91004d;
+}
+.first-section__button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 7px 0 #91004d;
+}
+.first-section__button:active{
+    transform: translateY(0px);
+    box-shadow: 0 2.5px 0px #91004d;
+}
+.first-section__social-media{
+    width: 40%;
+    margin-top: 20%;
+}
+.first-section__icons__line{
+    height: 25px;
+    width: 1px;
+    background-color: #909090;
+    margin-inline: 20px;
+}
+.first-section__icons{
+    display: flex;
+    justify-content: space-between;
+}
+.first-section__image{
+    display: flex;
+    align-items: end;
+}
+.plant-img{
+    margin-left: -42.5%;
+    z-index: -1;
+}
+/* кінець головного блоку */
+
+
 /* початок Creating Extraordinary Customer Experience */
 .second_block{
     margin-inline: 7.29166%;
@@ -287,7 +418,7 @@ a {
 }
 ._icons:hover{
     transition: all 0.5s ease;
-    transform: scale(1.6);
+    transform: scale(1.3);
 }
 .info_footer{
     display: flex;
